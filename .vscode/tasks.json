@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "jekyll serve --livereload",
             "options": {
-                "cwd": "${workspaceFolder}/src"
+                "cwd": "${workspaceFolder}/docs"
             },
             "group": {
                 "kind": "build",
@@ -25,7 +25,7 @@
             "type": "shell",
             "command": "jekyll build --verbose",
             "options": {
-                "cwd": "${workspaceFolder}/src"
+                "cwd": "${workspaceFolder}/docs"
             },
             "problemMatcher": [
                 "$jekyll-error",
