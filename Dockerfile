@@ -15,6 +15,7 @@ ENV JEKYLL_ENV=${JEKYLL_ENV}
 # # install both bundler 1.x and 2.x
 # RUN gem install bundler -v "~>1.0" && gem install bundler jekyll
 
+RUN ln -s /srv/jekyll/src /srv/jekyll/docs
 
 # Develop Tools
 RUN apk update && apk add --no-cache curl zsh vim expect && apk upgrade

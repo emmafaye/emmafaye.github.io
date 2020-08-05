@@ -60,7 +60,7 @@ unpublished         : false
 
 # Plugins
 whitelist           : []
-plugins             : [jekyll-feed]
+plugins             : ["jekyll-github-metadata", "jekyll-feed", "jekyll-sitemap", "jekyll-seo-tag"]
 
 # Conversion
 markdown            : kramdown

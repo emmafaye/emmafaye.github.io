@@ -38,8 +38,8 @@
 		"files.eol": "\n",
 		"files.exclude": {
 			"**/.jekyll-cache": true,
-			"**/_site": true
-
+			"**/_site": true,
+			"docs": true
 		},
 		"[markdown]": {
 			"editor.quickSuggestions": true
