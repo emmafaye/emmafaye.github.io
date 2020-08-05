@@ -30,7 +30,7 @@ github_username: emmafaye
 theme: minima
 
 # # Where things are
-source              : .
+# source              : .
 destination         : ./_site
 # collections_dir     : . # seems to break posts
 plugins_dir         : _plugins
@@ -60,7 +60,7 @@ unpublished         : false
 
 # Plugins
 whitelist           : []
-plugins             : ["jekyll-github-metadata", "jekyll-feed", "jekyll-sitemap", "jekyll-seo-tag"]
+plugins             : ["jekyll-feed", "jekyll-sitemap", "jekyll-seo-tag"]
 
 # Conversion
 markdown            : kramdown
